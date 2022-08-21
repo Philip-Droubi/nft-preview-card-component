@@ -83,11 +83,11 @@ main {
 main:hover {
     animation-name: nice;
     animation-duration: 1.8s;
-    animation-delay: 0.5s;
+    animation-delay: 0.3s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    box-shadow: 0 0 0 0 #00000007;
+    box-shadow: 0 0 3px 4px #00000007;
 }
 
 @keyframes nice {
@@ -153,6 +153,7 @@ main:hover::after {
 
 .top:hover::after {
     opacity: 100%;
+    cursor: pointer;
 }
 
 main p {
@@ -229,6 +230,7 @@ main footer p {
 h1:hover,
 main footer span:hover {
     color: var(--Cyan);
+    cursor: pointer;
 }
 
 main footer img:hover {
@@ -236,6 +238,7 @@ main footer img:hover {
     width: 48px;
     height: 48px;
     box-shadow: 0 0 4px 1px var(--Cyan);
+    cursor: pointer;
 }
 
 .attribution {
